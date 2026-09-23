@@ -1,55 +1,79 @@
-# Motion Playground
+<div align="center">
 
-A collection of small, interactive animation experiments built with React, Next.js, and Motion. Explore the page and try the examples: hover and tap the buttons, click the expandable items, and drag the lizard card.
+# ✨ Motion Playground
 
-## Highlights
+### A little space to explore motion on the web.
 
-- Spring-based hover and tap interactions
-- Entrance animations and staggered list reveals
-- Expandable items animated with layout transitions
-- A draggable card with elastic constraints
-- A cursor-following glow and looping live badge
-- A simple loading indicator and bouncing arrow
+Interactive animation experiments made with **Next.js**, **React**, and **Motion**.
 
-## Tech stack
+<p>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-000000?logo=next.js&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" />
+  <img alt="Motion" src="https://img.shields.io/badge/Motion-animations-8B5CF6" />
+</p>
 
-- [Next.js](https://nextjs.org/) with the App Router
-- [React](https://react.dev/) and [TypeScript](https://www.typescriptlang.org/)
-- [Motion](https://motion.dev/) for animation
-- [Tailwind CSS](https://tailwindcss.com/) for utility styling
-- [MUI](https://mui.com/) for the demo card
+</div>
 
-## Run locally
+## Explore
 
-Use Node.js and npm, then install dependencies and start the development server:
+Try the examples directly on the page. Hover and tap the buttons, expand the list items, and drag the lizard card.
+
+| Demo | What to try |
+| --- | --- |
+| Spring buttons | Hover and tap to feel the spring response |
+| Entrance effects | Watch elements fade and slide into place |
+| Staggered list | See list items appear one after another |
+| Expandable items | Click an item to animate its layout |
+| Draggable card | Drag the card within its elastic bounds |
+| Cursor glow | Move your pointer around the page |
+| Live badge | Watch the badge pulse continuously |
+
+## Built with
+
+<p>
+  <a href="https://nextjs.org/">Next.js App Router</a> ·
+  <a href="https://react.dev/">React</a> ·
+  <a href="https://www.typescriptlang.org/">TypeScript</a> ·
+  <a href="https://motion.dev/">Motion</a> ·
+  <a href="https://tailwindcss.com/">Tailwind CSS</a> ·
+  <a href="https://mui.com/">MUI</a>
+</p>
+
+## Get started
+
+You’ll need [Node.js](https://nodejs.org/) and npm installed.
 
 ```bash
+git clone <your-repository-url>
+cd motion-playground
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the playground.
+Visit [http://localhost:3000](http://localhost:3000) to open the playground.
 
-## Available scripts
+## Scripts
 
 | Command | Description |
 | --- | --- |
 | `npm run dev` | Start the development server |
-| `npm run build` | Build the production app |
-| `npm run start` | Run the production server after building |
-| `npm run lint` | Run ESLint |
+| `npm run build` | Build the app for production |
+| `npm run start` | Start the production server |
+| `npm run lint` | Check the code with ESLint |
 
-## Project structure
+## Project layout
 
 ```text
 app/
-  components/   Individual animation demos
-  page.tsx      Playground page that brings the demos together
-  globals.css   Global styles
+├── components/   Animation demos
+├── globals.css   Global styles
+├── layout.tsx    Root layout and theme providers
+└── page.tsx      Playground page
 public/
-  images/       Images used by the demos
+└── images/       Images used in the demos
 ```
 
 ## License
 
-No license has been specified yet. Add a license before inviting others to reuse or redistribute this project.
+No license has been added yet. Add one if you want to define how others may use or share this project.
